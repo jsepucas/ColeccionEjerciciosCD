@@ -10,4 +10,8 @@ int main () {
     decimalList.push_back (1.6180);
 
     std::stack<double, std::list<double> > decimalStack (decimalList);
+
+    std::cout << "Top element: " << decimalStack.top() << std::endl;
+    decimalStack.pop();
+
 }
