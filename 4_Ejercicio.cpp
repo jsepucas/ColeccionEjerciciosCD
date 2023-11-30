@@ -35,4 +35,11 @@ int main() {
  for (double num : division) cout << num << " ";
  cout << endl;
 
+ cout << "Raiz cuadrada: ";
+ for (double num : raizCuadrada) cout << num << " ";
+ cout << endl;
+
+ return 0;
+
+}
 
