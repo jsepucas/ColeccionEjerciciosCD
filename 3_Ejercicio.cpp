@@ -12,6 +12,7 @@ int main() {
     for(int num: numeros) {
         cout << num << endl;
     }
-
+    cout << endl;
+    auto maxElement = max_element(numeros.begin(), numeros.end());
 
 }
