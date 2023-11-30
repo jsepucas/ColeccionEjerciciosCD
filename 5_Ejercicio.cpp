@@ -12,3 +12,10 @@ int main() {
     cout << "Numeros iniciales: " << endl;
     for_each(numbers.begin(), numbers.end(), [](int n) { cout << n << " "; });
     cout << endl;
+
+    auto squaredNumbers = make_unique<vector<int>>();
+
+    for(int n : numbers) {
+squaredNumbers->push_back(square(n));
+    }
+
