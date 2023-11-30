@@ -14,5 +14,7 @@ int main() {
     }
     cout << endl;
     auto maxElement = max_element(numeros.begin(), numeros.end());
-
+    cout << "El numero mas alto es: " << *maxElement << endl;
+    auto minElemento = min_element(numeros.begin(), numeros.end());
+    cout << "El numero mas bajo es: " << *minElemento << endl;
 }
