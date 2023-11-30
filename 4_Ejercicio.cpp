@@ -22,3 +22,8 @@ int main() {
  cout << "Suma: ";
  for (double num : suma) cout << num << " ";
  cout << endl;
+
+ cout << "Multiplicacion: ";
+ for (double num : multiplicacion) cout << num << " ";
+ cout << endl;
+
