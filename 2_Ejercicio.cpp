@@ -11,12 +11,14 @@ int main () {
 
     std::stack<double, std::list<double> > decimalStack (decimalList);
 
-    std::cout << "Top element: " << decimalStack.top() << std::endl;
+    std::cout << "Elemento top: " << decimalStack.top() << std::endl;
     decimalStack.pop();
 
-    std::cout << "New top element after pop: " << decimalStack.top() << std::endl;
+    std::cout << "Nuevo elemento despues del pop: " << decimalStack.top() << std::endl;
 
     decimalStack.push (1.4142);
-    std::cout << "Top element after push: " << decimalStack.top() << std::endl;
+    std::cout << "Elemento top despues del push: " << decimalStack.top() << std::endl;
+
+    return 0;
 
 }
