@@ -27,3 +27,12 @@ int main() {
  for (double num : multiplicacion) cout << num << " ";
  cout << endl;
 
+ cout << "Resta: ";
+ for (double num : resta) cout << num << " ";
+ cout << endl;
+
+ cout << "Division: ";
+ for (double num : division) cout << num << " ";
+ cout << endl;
+
+
